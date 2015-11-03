@@ -26,3 +26,12 @@ body {
 	border-radius: 0;
 	box-shadow: 0px 5px 10px #7e7e7e;
 }
+
+.navbar-inverse .navbar-brand {
+	color: #C03243;
+	/* Impact-based sans serif stack */
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+	letter-spacing: 2px;
+	font-size: 20px;
+	font-weight: 600px;
+}
