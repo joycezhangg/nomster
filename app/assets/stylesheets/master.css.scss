@@ -7,7 +7,7 @@
 	border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
 	margin-top: 10px;
 	margin-bottom: 15px;
-	padding: 20px;
+	padding: 20px 20px 20px 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,4 +34,17 @@ body {
 	letter-spacing: 2px;
 	font-size: 20px;
 	font-weight: 600px;
+}
+
+.paginate {
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+	a {
+		color: #AD458B;
+	}
+}
+
+.clr {
+	clear:both;
 }
