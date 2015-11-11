@@ -28,9 +28,9 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-	color: #C03243;
+	color: #7474FF;
 	/* Impact-based sans serif stack */
-	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 	letter-spacing: 2px;
 	font-size: 20px;
 	font-weight: 600px;
@@ -40,10 +40,14 @@ body {
 	text-align: center;
 	padding: 10px 0px 10px 0px;
 	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
-	a {
-		color: #AD458B;
-	}
+	/* a {
+		color: #4180FF;
+	} */
 }
+
+a {
+	color: #4180FF;
+	}
 
 .clr {
 	clear:both;
