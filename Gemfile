@@ -53,6 +53,9 @@ gem "geocoder"
 #to add values to the ENV on our localhost 
 gem "figaro", ">= 1.0.0"
 
+#allow file uploads
+gem 'carrierwave'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
