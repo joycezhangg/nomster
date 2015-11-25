@@ -25,6 +25,16 @@
 				</blockquote>
 			</div>
 		<% end %>
+
+		<% if place.photos.present? %>
+			<div class = "col-xs-12">
+				<%= image_tag place.photos.last.picture %>
+				<br /><br />
+				<%= place.photos.last.caption %>
+				<br />
+				<small><%= place.photos.last.user.email %></small>
+			</div>
+		<% end %>
 	</div>
 <% end %>
 
