@@ -56,6 +56,9 @@ gem "figaro", ">= 1.0.0"
 #allow file uploads
 gem 'carrierwave'
 
+#allow carrierwave to be able to communicate with Amazon
+gem 'fog', '~> 1.3.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
