@@ -2,8 +2,8 @@ Nomster::Application.routes.draw do
   devise_for :users
   root 'places#index'
   resources :places do
-    resources :comments, :only => :create
-    resources :photos, :only => :create
+    resources :comments, :only => [:create, :edit, :destroy]
+    resources :photos, :only => [:create, :destroy]
   end
   resources :users, :only => :show
 
