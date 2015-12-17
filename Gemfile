@@ -59,6 +59,9 @@ gem 'carrierwave'
 #allow carrierwave to be able to communicate with Amazon
 gem 'fog', '~> 1.3.1'
 
+#FactoryGirl for testing default data
+gem "factory_girl_rails", "~> 4.0"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
