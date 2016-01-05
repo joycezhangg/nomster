@@ -128,7 +128,7 @@
 
 	<% @place.photos.each do |photo| %>
 		<div class = "col-xs-12 col-sm-6">
-        <%= link_to image_tag photo.picture %>
+      <%= link_to image_tag(photo.picture), image_url(photo.picture), class: "fancybox", title: photo.caption %>
 			<br /><br />
 			<%= photo.caption %>
 			<br />
@@ -136,3 +136,9 @@
 		</div>
 	<% end %>
 </div>
+
+<script>
+  jQuery(function() {
+    $("a.fancybox").fancybox();
+  });
+</script>
